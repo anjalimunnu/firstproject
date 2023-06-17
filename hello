@@ -1,1 +1,30 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment</title>
+    <style>
+        h1{
+            color: lightgreen;
+            text-decoration-line: underline;
+        }
+        span{
+            color: red;
+            text-decoration-line: underline;
+        }
+        p{
+            line-height: 200%;
+        }
+    </style>
+</head>
+<body>
+    <h1>WELCOME TO OUR UNIVERSITY</h1>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, dolor! Iusto at corporis ipsa obcaecati. Rem, ullam harum doloremque <span>tempore dolorum quaerat maxime numquam corrupti atque delectu</span> tempore dolorum quaerat maxime numquam corrupti atque delectus fugiat eaque. Commodi?
+    Ullam neque, dolore rerum eius in enim itaque eveniet error cupiditate quia possimus ipsa dicta libero hic modi alias accusantium, minus facere exercitationem adipisci! Ipsam,<span> ex quae. Maxime, dicta quidem?</span>
+    Dignissimos ipsam consequatur quae nulla reiciendis ab! Esse nam, alias rem dolorum possimus quam cumque temporibus rerum est neque sed beatae vitae cupiditate autem ut in repellat hic, quaerat mollitia.
+    Veniam et sequi aliquam, suscipit ipsa debitis totam consequuntur laudantium. Quasi dolores, dolorem ipsa illum ut ea vero facere doloribus excepturi eius, voluptas natus expedita maxime iste iusto qui. Enim?</P>
+    <h1>WHY CHOOSE UNIVERSITY</h1>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium debitis iste obcaecati exercitationem numquam, corrupti sit sapiente vero sed eos saepe. Officiis nam, a similique eligendi vero mollitia ea libero.</P>
+</body>
+</html>
