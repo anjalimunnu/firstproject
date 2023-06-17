@@ -28,3 +28,56 @@
     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium debitis iste obcaecati exercitationem numquam, corrupti sit sapiente vero sed eos saepe. Officiis nam, a similique eligendi vero mollitia ea libero.</P>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Height , Width , Border and Background</title>
+    <style>
+      #firstpara {
+        background-color: aqua;
+        height: 200px;
+        width: 3456px;
+        border-width: 4px;
+        border-style: solid;
+        border-color: brown;
+        border-radius: 23px;
+        /*border:4px solid brown ; in one line*/
+      }
+      #secondpara {
+        background-color: rgb(red, rgb(25, 147, 25), blue);
+        border-top: 2px solid red;
+        border-bottom: 2px solid purple;
+        border-right: 3px solid pink;
+        border-left: 5px solid navy;
+        color: aqua;
+        background-color: yellow;
+        border-radius: 27px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 34%;
+        border-bottom-right-radius: 67px;
+      }
+      #thirdpara {
+        height: 233px;
+        width: 3456px;
+        color: blue;
+        background-color: blue;
+        border: 4px;
+        background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D100069467910852&tbnid=5W-MqX3NsRSkHM&vet=12ahUKEwjO7bfNhMr_AhV_JLcAHT0lD5gQMygCegUIARDoAQ..i&imgrefurl=https%3A%2F%2Fm.facebook.com%2Fp%2FI-love-u-mendhak-100069467910852%2F&docid=b_fUsNe0GQ90_M&w=432&h=432&q=image%20mendhak&ved=2ahUKEwjO7bfNhMr_AhV_JLcAHT0lD5gQMygCegUIARDoAQ");
+        background-repeat: no-repeat;/* repeat-x and repeat-y ,will make it repeat*/
+        background-position: 164px 34px;
+        background-position: center center;
+        background-position: bottom right;
+        background-position: top center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is heading</h1>
+    <p id="firstpara">This is a paragraph</p>
+    <p id="secondpara">this is second para now play game</p>
+    <h1>this is a third heading</h1>
+    <p id="thirdpara">This is third paragraph</p>
+  </body>
+</html>
